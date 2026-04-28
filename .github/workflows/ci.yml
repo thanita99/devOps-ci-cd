@@ -3,9 +3,9 @@ name: CI Pipeline
 # Trigger on push and pull requests to main branch
 on:
     push:
-        branches: [ master ]
+        branches: [ main ]
     pull_request:
-        branches: [ master ]
+        branches: [ main ]
 
 jobs:
     test:
